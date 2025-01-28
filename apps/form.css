@@ -1,0 +1,39 @@
+:root {
+    --color-light: rgb(201 , 197, 197);   
+}
+* , *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.border-light {
+    border: 1px solid var(--color-light);
+}
+
+.box-center {
+    width: 450px;
+    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rounded {
+    border-radius: 10px;
+}
+
+.mt-sm {
+    margin-top: 25px;
+}
+
+.mb-sm {
+    margin-bottom: 25px;
+}
+
+.p-5 {
+    padding: 2.5rem;
+}
+
+.text-serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

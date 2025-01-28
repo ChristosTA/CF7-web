@@ -1,0 +1,77 @@
+body { 
+    background-color: lightgrey;
+}
+h1 {
+    Color:red;
+    background-color: black;
+}
+
+p, li {
+    color:rgb(38, 38, 238);
+    background-color: aqua;
+}
+
+.aueb-logo {
+    width: 800px;
+    color: yellow;
+    background-color: purple;
+}
+
+img.aueb-logo {
+    height: auto;
+    border:2px solid black ;
+}
+
+.aueb-text{
+    color:yellow;
+    background-color:brown;
+}
+
+#auebText{
+    color: black;
+    background-color: orange;
+}
+
+ul > li { 
+    color: orange;
+}
+
+ul strong {
+    background-color: gray;
+}
+
+ul em {
+    background-color: red;
+}
+
+h1 + p /*εδω δεν θα παιξει γιατι το εχουμε κανει με class το p*/
+{
+    background-color: black;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color:brown;
+
+}
+
+a:hover {
+    background-color: green;
+}
+a:focus {
+    outline: none;
+    background-color: yellow;
+}
+
+
+
+a:active {
+    background color: chocolate;
+    color: white;
+}
+
+/*LoVeHateFeAr (Link,Visited,Hover,Focus,Active) */
